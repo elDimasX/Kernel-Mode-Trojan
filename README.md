@@ -1,2 +1,10 @@
 # Kernel-Mode-Trojan
-Um trojan feito em modo kernel, ele deleta qualquer arquivo que é lido, ou obtém as informações do mesmo.
+Simples trojan para literalmente, apagar o seu computador (incluindo a System32)
+
+Como ele funciona?-
+O driver é um driver de minifiltro, que registra operações no sistema de arquivo, então, sempre que uma requisição for criada, e passada para o nosso driver, e ele deleta este arquivo
+
+E possível para-ló?-
+Não! Após você executar com o comando "sc", você não poderá para-ló.
+
+Use apenas para fins de testes, ou para zoar em uma máquina virtual ;)
