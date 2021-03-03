@@ -1,0 +1,29 @@
+﻿  Building 'FileSystemMinifilter' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\FileSystemMinifilter.inf
+  Stamping [Version] section with DriverVer=03/03/2021,10.26.9.205
+G:\Projetos\FileSystemMinifilter\FileSystemMinifilter.inf : warning 1420: [DefaultInstall]-based INF cannot be processed as Primitive.
+G:\Projetos\FileSystemMinifilter\FileSystemMinifilter.inf(25-25): warning 1421: Section [DefaultInstall] should have an architecture decoration.
+G:\Projetos\FileSystemMinifilter\FileSystemMinifilter.inf(36-36): warning 1421: Section [DefaultUninstall] should have an architecture decoration.
+G:\Projetos\FileSystemMinifilter\FileSystemMinifilter.inf(74-74): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  FileSystemMinifilter.c
+G:\Projetos\FileSystemMinifilter\FileSystemMinifilter.c(94,1): warning C4047: 'inicializando': 'FLT_OPERATION_REGISTRATION_FLAGS' difere em níveis de indireção de 'void *'
+G:\Projetos\FileSystemMinifilter\FileSystemMinifilter.c(126,65): warning C4047: 'função': 'const FLT_REGISTRATION *' difere em níveis de indireção de 'const FLT_REGISTRATION (*)[1]'
+G:\Projetos\FileSystemMinifilter\FileSystemMinifilter.c(126,52): warning C4024: 'FltRegisterFilter': tipos diferentes para parâmetro formal e real 2
+  FileSystemMinifilter.vcxproj -> G:\Projetos\FileSystemMinifilter\Debug\FileSystemMinifilter.sys
+  Done Adding Additional Store
+  Successfully signed: G:\Projetos\FileSystemMinifilter\Debug\FileSystemMinifilter.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  G:\Projetos\FileSystemMinifilter\Debug\FileSystemMinifilter\filesystemminifilter.cat
+  Done Adding Additional Store
+  Successfully signed: G:\Projetos\FileSystemMinifilter\Debug\FileSystemMinifilter\filesystemminifilter.cat
+  
