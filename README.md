@@ -7,5 +7,4 @@ Ele é um driver de minifiltro, que registra operações no sistema de arquivo, 
 
 ## E possível parar o driver?
 
-Não! Após você executar com o comando "sc", você não poderá para-ló.
-Use apenas para fins de testes, ou para zoar em uma máquina virtual ;)
+Não! Após você executar com o comando "sc", você não poderá para-ló, use apenas para fins de testes, ou para zoar em uma máquina virtual ;)
